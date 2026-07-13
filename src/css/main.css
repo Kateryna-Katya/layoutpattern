@@ -56,13 +56,13 @@ width: 436px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 .about-wrapper{
 width: 343px;
 }
 .about-title{
     text-align: left;
-    margin-bottom: 12px;
 }
 .about-subtitle{
     text-align: left;
@@ -77,8 +77,69 @@ color: #ff007a;
 flex-direction: row-reverse;
 justify-content: center;
 gap: 64px;
+padding-bottom: 120px;
 }
 .about-wrapper{
 width: 534px;
 }   
+}
+/* How to Play */
+.how-section{
+background: #0d0d15;
+}
+.how-swiper .swiper-slide{
+border: 1px solid #ff4e4e;
+    border-radius: 24px;
+    padding: 32px 12px;
+    width: 246px !important;
+    height: 260px !important;
+background: #1a1a2e;
+}
+.how-number{
+font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #ff4e4e;
+    margin-bottom: 30px;
+}
+.how-slide-title{
+font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.how-swiper .s2{
+border: 1px solid #7c3aed;
+}
+.h2{
+color: #7c3aed;
+}
+.how-swiper .s3 {
+border: 1px solid #faff00;
+}
+
+.h3 {
+    color: #faff00;
+}
+.how-swiper .s4 {
+border: 1px solid #a3e635;
+}
+
+.h4 {
+    color: #a3e635;
+}
+.how-swiper .s5 {
+border: 1px solid #fff;
+}
+
+.h5 {
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+ .how-swiper .swiper-wrapper{
+    gap: 12px;
+    justify-content: center;
+ }
 }

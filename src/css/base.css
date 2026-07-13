@@ -14,7 +14,7 @@ h2{
     text-transform: uppercase;
     text-align: center;
     color: #ff007a;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 h3{
   font-family: "Anybody", sans-serif;
@@ -25,4 +25,9 @@ h3{
     text-align: center;
     color: #fff;
 margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  h3{
+    margin-bottom: 54px;
+  }
 }
