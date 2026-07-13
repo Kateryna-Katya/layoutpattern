@@ -49,3 +49,36 @@ font-size: 80px;
 width: 436px;
 }    
 }
+/* About the Game */
+.about-container{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-wrapper{
+width: 343px;
+}
+.about-title{
+    text-align: left;
+    margin-bottom: 12px;
+}
+.about-subtitle{
+    text-align: left;
+    color: #a3e635;
+    margin-bottom: 12px;
+}
+.about-span{
+color: #ff007a;
+}
+@media only screen and (min-width: 1440px) {
+.about-container{
+flex-direction: row-reverse;
+justify-content: center;
+gap: 64px;
+}
+.about-wrapper{
+width: 534px;
+}   
+}
