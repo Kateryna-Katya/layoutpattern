@@ -313,3 +313,134 @@ padding: 40px;
     display: none;
 }  
 }
+/* Player Benefits */
+.benefits-section{
+background: #a3e635;
+}
+.benefits-title{
+color: #0d0d15;
+}
+.benefits-subtitle{
+color: #0d0d15;
+}
+.benefits-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.benefits-item{
+border-radius: 100px;
+    padding: 20px 28px;
+    width: 343px;
+    height: 68px;
+background: #0d0d15;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.benefits-list {
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+gap: 16px;
+}
+.benefits-item {
+ width: auto;
+}
+}
+/* FAQ */
+.faq-section{
+background: #0d0d15;
+}
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+border-radius: 24px;
+    background: #1a1a2e;
+    padding: 16px;
+}
+
+.faq-acc-el-title {
+    margin-bottom: 0;
+}
+
+.faq-acc-el-trigger {
+    background: inherit;
+    border: none;
+font-family: "Anybody", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 16px;
+}
+
+
+.faq-acc-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: inherit;
+    transition: transform 0.3s ease;
+    width: 24px;
+    height: 24px;
+}
+
+.faq-acc-arr.is-hidden {
+    display: none;
+}
+
+.faq-acc-el-descr-frame {
+    background: none;
+    text-align: left;
+padding-left: 16px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, border-bottom 0.3s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+    opacity: 1;
+    border: none;
+
+    background: none;
+   padding: 0 16px 16px;
+    text-align: left;
+    max-height: 500px;
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .faq-acc {
+    width: 722px;
+        margin: 0 auto;
+    }
+}
